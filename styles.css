@@ -8,6 +8,7 @@ header {
     margin-bottom: 20px;
     background-color: #F4F9F4;
 }
+
 header h1 {
     display: inline;
     float: left;
@@ -15,6 +16,7 @@ header h1 {
     font-style: italic;
     font-size: 50px;
 }
+
 header ul.nav {
     float: left;
     margin: 7px 0 0 15px;
@@ -27,7 +29,6 @@ header ul.nav {
 .rcolumn, .rcolumn .nav-header {
     font-size: 14px;
 }
-
 
 #poster-info {
     width: 150px;
@@ -44,18 +45,39 @@ header ul.nav {
     letter-spacing: normal;
     padding: 15px 0 15px 0;
 }
+
 #poster-info .date strong {
     display: block;
     font-size: 75px;
     line-height: 75px;
 }
+
 #poster-info .weekday {
     display: block;
     font-size: 13px;
     padding-top: 15px;
 }
+
 #poster-info .time {
     display: block;
     font-size: 21px;
     padding-bottom: 15px;
+}
+
+.placeholder {
+    width: 90%;
+    height: 90%;
+    min-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.right_column .placeholder, .left_column .placeholder {
+    height: 250px;
+    margin-bottom: 20px;
+
 }
