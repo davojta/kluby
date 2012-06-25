@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>klu.by</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic" rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrapcss/bootstrap-responsive.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <h1>клу.бы</h1>
+        <ul class="nav nav-pills">
+            <li><a href="#">Календарь</a></li>
+            <li><a href="#">Мои события</a></li>
+            <li><a href="#">Настройки</a></li>
+        </ul>
+        <div style="clear:both"></div>
+    </header>
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="left_column span9">
+            <div class="row">
+                <div class="span9">
+                   <form class="form-horizontal">
+                       <fieldset>
+                           <div class="control-group">
+                               <label class="control-label" for="event_title">Event Title</label>
+                               <div class="controls">
+                                   <input type="text" class="input-xlarge" id="event_title">
+                               </div>
+                           </div>
+                           <div class="control-group">
+                               <label class="control-label" for="event_desc">Event Description</label>
+                               <div class="controls">
+                                   <textarea class="input-xxlarge" id="event_desc" rows="4"></textarea>
+                               </div>
+                           </div>
+                           <div class="control-group">
+                               <label class="control-label" for="event_desc">Event Date:</label>
+                               <div class="controls">
+
+                                   <select id="event_month" class="input-mini">
+                                       <option>May</option>
+                                       <option>June</option>
+                                   </select>
+                                   <select id="event_day" class="input-mini">
+                                       <option>1</option>
+                                       <option>3</option>
+                                       <option>4</option>
+                                       <option>5</option>
+                                       <option>6</option>
+                                       <option>7</option>
+                                   </select>
+                                   , Time:
+                                   <select id="event_hours" class="input-mini">
+                                       <option>10</option>
+                                       <option>11</option>
+                                       <option>12</option>
+                                       <option>13</option>
+                                       <option>14</option>
+                                       <option>15</option>
+                                       <option>16</option>
+                                       <option>17</option>
+                                   </select>
+                                   :
+                                   <select id="event_minutes" class="input-mini">
+                                       <option>00</option>
+                                       <option>15</option>
+                                       <option>30</option>
+                                       <option>45</option>
+                                   </select>
+                               </div>
+                           </div>
+                           <div class="control-group">
+                               <label class="control-label" for="event_location">Location</label>
+                               <div class="controls">
+                                   <input type="text"  class="input-xlarge" id="event_location">
+                               </div>
+                           </div>
+                           <div class="control-group">
+                               <label class="control-label" for="event_amount">Numbers of attenders</label>
+                               <div class="controls">
+                                   <input type="numbers"  class="input-mini" id="event_amount">
+                               </div>
+                           </div>
+                           <div class="control-group">
+                               <label class="control-label" for="event_poster">Event poster</label>
+                               <div class="controls">
+                                   <input type="file"  class="input-file" id="event_poster">
+                               </div>
+                           </div>
+
+
+                       </fieldset>
+
+
+
+
+
+                   </form>
+
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <div class="placeholder">
+                        left column second place holder
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right_column span3">
+            <div class="row">
+                <div class="span3">
+                    <div class="placeholder">
+                        right column first placeholder
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="span3">
+                    <div class="placeholder">
+                        right column second placeholder
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<!-- /container -->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="bootstrapjs/jquery.js"></script>
+<script src="bootstrapjs/bootstrap-transition.js"></script>
+<script src="bootstrapjs/bootstrap-alert.js"></script>
+<script src="bootstrapjs/bootstrap-modal.js"></script>
+<script src="bootstrapjs/bootstrap-dropdown.js"></script>
+<script src="bootstrapjs/bootstrap-scrollspy.js"></script>
+<script src="bootstrapjs/bootstrap-tab.js"></script>
+<script src="bootstrapjs/bootstrap-tooltip.js"></script>
+<script src="bootstrapjs/bootstrap-popover.js"></script>
+<script src="bootstrapjs/bootstrap-button.js"></script>
+<script src="bootstrapjs/bootstrap-collapse.js"></script>
+<script src="bootstrapjs/bootstrap-carousel.js"></script>
+<script src="bootstrapjs/bootstrap-typeahead.js"></script>
+
+</body>
+</html>
